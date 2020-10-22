@@ -1,0 +1,729 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grocery Store </title>
+
+    <!-- Bootstrap CDN -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <!-- Owl-carousel CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" integrity="sha256-UhQQ4fxEeABh4JrcmAJ1+16id/1dnlOEVCFOxDef9Lw=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" integrity="sha256-kksNxjDRxd/5+jGurZUJd1sdR2v+ClrCl3svESBaJqw=" crossorigin="anonymous" />
+
+    <!-- font awesome icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" integrity="sha256-h20CPZ0QyXlBuAw7A+KluUYx/3pK+c7lYEpqLTlxjYQ=" crossorigin="anonymous" />
+
+    <!-- Custom CSS file -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- start #header -->
+        <header id="header">
+            <div class="strip d-flex justify-content-between px-4 py-1 bg-light">
+                <p class="font-rale font-size-12 text-black-50 m-0">Almaty , Abay street 142b (427) 930-5255</p>
+                <div class="font-rale font-size-14">
+                    <a href="login.html" class="px-3 border-right border-left text-dark">Login</a>
+                    <a href="registration.html" class="px-3 border-right border-left text-dark">Registration</a>
+                </div>
+            </div>
+
+            <!-- Primary Navigation -->
+            <nav class="navbar navbar-expand-lg navbar-dark color-second-bg">
+                <a class="navbar-brand" href="#">Grocery Store</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                  <ul class="navbar-nav m-auto font-rubik">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="cart.html">On Sale</a>
+                    </li>
+                  
+                     <li class="nav-item">
+                        <a class="nav-link" href="food_1.html">Food</a>
+                      </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="blog.html">Blog</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Category <i class="fas fa-chevron-down"></i></a>
+                      </li>
+              
+                  </ul>
+                  <form action="#" class="font-size-14 font-rale">
+                      <a href="#" class="py-2 rounded-pill color-primary-bg">
+                        <span class="font-size-16 px-2 text-white"><i class="fas fa-shopping-cart"></i></span>
+                        <span class="px-3 py-2 rounded-pill text-dark bg-light">0</span>
+                      </a>
+                  </form>
+                </div>
+              </nav>
+               <!-- !Primary Navigation -->
+
+        </header>
+    <!-- !start #header -->
+
+    <!-- start #main-site -->
+        <main id="main-site">
+
+          <!-- Owl-carousel -->
+            <section id="banner-area">
+              <div class="owl-carousel owl-theme">
+                  <div class="item">
+                    <img src="https://avatars.mds.yandex.net/get-zen_doc/62191/pub_5b3359f6173fe100a9ac4927_5b335a584a062000a915d816/scale_1200" alt="Banner1">
+                  </div>
+                  <div class="item">
+                    <img src="https://cdn.segodnya.ua/i/image_1200x630/media/image/5d1/cf2/109/5d1cf21091684.jpg" alt="Banner2">
+                  </div>
+                  <div class="item">
+                    <img src="https://cdn.cnn.com/cnnnext/dam/assets/190304094639-whole-foods-amazon-groceries-restricted-super-tease.jpg" alt="Banner3">
+                  </div>
+              </div>
+            </section>
+          <!-- !Owl-carousel -->
+
+          <!-- Top Sale -->
+          <section id="top-sale">
+            <div class="container py-5">
+              <h4 class="font-rubik font-size-20">Top Sale</h4>
+              <hr>
+              <!-- owl carousel -->
+                <div class="owl-carousel owl-theme">
+                  <div class="item py-2">
+                    <div class="product font-rale">
+                      <a href="#"><img src="../assets/products/bb9.jpg" alt="product1" class="img-fluid"></a>
+                      <div class="text-center">
+                        <h6>Сыр Творожный сливочный Hochland 220 гр</h6>
+                        <div class="rating text-warning font-size-12">
+                          <span><i class="fas fa-star"></i></span>
+                          <span><i class="fas fa-star"></i></span>
+                          <span><i class="fas fa-star"></i></span>
+                          <span><i class="fas fa-star"></i></span>
+                          <span><i class="far fa-star"></i></span>
+                        </div>
+                        <div class="price py-2">
+                          <span>872 KZT</span>
+                        </div>
+                        <button type="submit" class="btn btn-warning font-size-12">Add to Cart</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="item py-2">
+                    <div class="product font-rale">
+                      <a href="#"><img src="../assets/products/p1.jpg" alt="product1" class="img-fluid"></a>
+                      <div class="text-center">
+                        <h6> Milk Novaya Derevnya, fresh, 2,5% (1 kg)</h6>
+                        <div class="rating text-warning font-size-12">
+                          <span><i class="fas fa-star"></i></span>
+                          <span><i class="fas fa-star"></i></span>
+                          <span><i class="fas fa-star"></i></span>
+                          <span><i class="fas fa-star"></i></span>
+                          <span><i class="far fa-star"></i></span>
+                        </div>
+                        <div class="price py-2">
+                          <span>700 KZT</span>
+                        </div>
+                        <button type="submit" class="btn btn-warning font-size-12">Add to Cart</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="item py-2">
+                    <div class="product font-rale">
+                      <a href="#"><img src="../assets/products/P2.jpg" alt="product1" class="img-fluid"></a>
+                      <div class="text-center">
+                        <h6>Activia yogurt, classic, 3.5%, 150 g</h6>
+                        <div class="rating text-warning font-size-12">
+                          <span><i class="fas fa-star"></i></span>
+                          <span><i class="fas fa-star"></i></span>
+                          <span><i class="fas fa-star"></i></span>
+                          <span><i class="fas fa-star"></i></span>
+                          <span><i class="far fa-star"></i></span>
+                        </div>
+                        <div class="price py-2">
+                          <span>300 KZT</span>
+                        </div>
+                        <button type="submit" class="btn btn-warning font-size-12">Add to Cart</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="item py-2">
+                    <div class="product font-rale">
+                      <a href="#"><img src="../assets/products/bbb4.png" alt="product1" class="img-fluid"></a>
+                      <div class="text-center">
+                        <h6>Хлебцы ржаные Щедрые, 200 гр.</h6>
+                        <div class="rating text-warning font-size-12">
+                          <span><i class="fas fa-star"></i></span>
+                          <span><i class="fas fa-star"></i></span>
+                          <span><i class="fas fa-star"></i></span>
+                          <span><i class="fas fa-star"></i></span>
+                          <span><i class="far fa-star"></i></span>
+                        </div>
+                        <div class="price py-2">
+                          <span>372 KZT</span>
+                        </div>
+                        <button type="submit" class="btn btn-warning font-size-12">Add to Cart</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="item py-2">
+                    <div class="product font-rale">
+                      <a href="#"><img src="../assets/products/bbb2.JPEG" alt="product1" class="img-fluid"></a>
+                      <div class="text-center">
+                        <h6>Сметана Простоквашино 20% 315гр</h6>
+                        <div class="rating text-warning font-size-12">
+                          <span><i class="fas fa-star"></i></span>
+                          <span><i class="fas fa-star"></i></span>
+                          <span><i class="fas fa-star"></i></span>
+                          <span><i class="fas fa-star"></i></span>
+                          <span><i class="far fa-star"></i></span>
+                        </div>
+                        <div class="price py-2">
+                          <span>499 KZT</span>
+                        </div>
+                        <button type="submit" class="btn btn-warning font-size-12">Add to Cart</button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="item py-2">
+                    <div class="product font-rale">
+                      <div class="d-flex flex-column">
+                        <a href="#"><img src="../assets/products/bbb6.jpeg" class="img-fluid" alt="pro1"></a>
+                        <div class="text-center">
+                          <h6>Казахстан шоколад Рахат 100 гр</h6>
+                          <div class="rating text-warning font-size-12">
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="far fa-star"></i></span>
+                          </div>
+                          <div class="price py-2">
+                            <span>372 KZT</span>
+                          </div>
+                          <button type="submit" class="btn btn-warning font-size-12">Add to Cart</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="item py-2">
+                    <div class="product font-rale">
+                      <div class="d-flex flex-column">
+                        <a href="#"><img src="../assets/products/bb56.jpeg" class="img-fluid" alt="pro1"></a>
+                        <div class="text-center">
+                          <h6>Какао-напиток Nesquik быстрорастворимый 250 г</h6>
+                          <div class="rating text-warning font-size-12">
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="far fa-star"></i></span>
+                          </div>
+                          <div class="price py-2">
+                            <span>650 KZT</span>
+                          </div>
+                          <button type="submit" class="btn btn-warning font-size-12">Add to Cart</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              <!-- !owl carousel -->
+            </div>
+          </section>
+        <!-- !Top Sale -->
+
+        <!-- Special Price -->
+          <section id="special-price">
+            <div class="container">
+              <h4 class="font-rubik font-size-20">Special Price</h4>
+              <div id="filters" class="button-group text-right font-baloo font-size-16">
+                <button class="btn is-checked" data-filter="*">All Products</button>
+                <button class="btn" data-filter=".Snacks">Снэки</button>
+                <button class="btn" data-filter=".Frozenfoods">Замароженные продукты</button>
+                <button class="btn" data-filter=".Shorcut">Сухофрукты,орехи</button>
+                                
+
+              </div>
+
+              <div class="grid">
+                <div class="grid-item Snacks border">
+                 <div class="item py-2" style="width: 200px;">
+                  <div class="product font-rale">
+                    <a href="#"><img src="../assets/products/sn1.jpeg" alt="product1" class="img-fluid-1"></a>
+                    <div class="text-center">
+                      <h6>Чипсы кукурузные Doritos начо сыр 72 г</h6>
+                      <div class="rating text-warning font-size-12">
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="fas fa-star"></i></span>
+                        <span><i class="far fa-star"></i></span>
+                      </div>
+                      <div class="price py-2">
+                        <span>383 KZT</span>
+                      </div>
+                      <button type="submit" class="btn btn-warning font-size-12">Add to Cart</button>
+                    </div>
+                  </div>
+                </div>
+                </div>
+                <div class="grid-item Frozenfoods border">
+                  <div class="item py-2" style="width: 200px;">
+                   <div class="product font-rale">
+                     <a href="#"><img src="../assets/products/fr1.jpg" alt="product1" class="img-fluid-1"></a>
+                     <div class="text-center">
+                       <h6> Чебупели Горячая штучка с ветчиной и сыром 300 г</h6>
+                       <div class="rating text-warning font-size-12">
+                         <span><i class="fas fa-star"></i></span>
+                         <span><i class="fas fa-star"></i></span>
+                         <span><i class="fas fa-star"></i></span>
+                         <span><i class="fas fa-star"></i></span>
+                         <span><i class="far fa-star"></i></span>
+                       </div>
+                       <div class="price py-2">
+                         <span>972 KZT</span>
+                       </div>
+                       <button type="submit" class="btn btn-warning font-size-12">Add to Cart</button>
+                     </div>
+                   </div>
+                 </div>
+                 </div>
+                 <div class="grid-item Shorcut border">
+                  <div class="item py-2" style="width: 200px;">
+                   <div class="product font-rale">
+                     <a href="#"><img src="../assets/products/suh3.jpg" alt="product1" class="img-fluid-1"></a>
+                     <div class="text-center">
+                       <h6>Чернослив БИОлайн 250 гр.</h6>
+                       <div class="rating text-warning font-size-12">
+                         <span><i class="fas fa-star"></i></span>
+                         <span><i class="fas fa-star"></i></span>
+                         <span><i class="fas fa-star"></i></span>
+                         <span><i class="fas fa-star"></i></span>
+                         <span><i class="far fa-star"></i></span>
+                       </div>
+                       <div class="price py-2">
+                         <span>916 KZT</span>
+                       </div>
+                       <button type="submit" class="btn btn-warning font-size-12">Add to Cart</button>
+                     </div>
+                   </div>
+                 </div>
+                 </div>
+                 <div class="grid-item Snacks border">
+                  <div class="item py-2" style="width: 200px;">
+                   <div class="product font-rale">
+                     <a href="#"><img src="../assets/products/sn2.jpeg" alt="product1" class="img-fluid-1"></a>
+                     <div class="text-center">
+                       <h6>Чипсы кукурузные Doritos со вкусом острого перца 130 г</h6>
+                       <div class="rating text-warning font-size-12">
+                         <span><i class="fas fa-star"></i></span>
+                         <span><i class="fas fa-star"></i></span>
+                         <span><i class="fas fa-star"></i></span>
+                         <span><i class="fas fa-star"></i></span>
+                         <span><i class="far fa-star"></i></span>
+                       </div>
+                       <div class="price py-2">
+                         <span>544 KZT</span>
+                       </div>
+                       <button type="submit" class="btn btn-warning font-size-12">Add to Cart</button>
+                     </div>
+                   </div>
+                 </div>
+                 </div>
+                 <div class="grid-item Frozenfoods border">
+                  <div class="item py-2" style="width: 200px;">
+                   <div class="product font-rale">
+                     <a href="#"><img src="../assets/products/fr3.jpeg" alt="product1" class="img-fluid-1"></a>
+                     <div class="text-center">
+                       <h6>Хрумпилсы из курицы Мираторг original замороженные 250 г</h6>
+                       <div class="rating text-warning font-size-12">
+                         <span><i class="fas fa-star"></i></span>
+                         <span><i class="fas fa-star"></i></span>
+                         <span><i class="fas fa-star"></i></span>
+                         <span><i class="fas fa-star"></i></span>
+                         <span><i class="far fa-star"></i></span>
+                       </div>
+                       <div class="price py-2">
+                         <span>1360 KZT</span>
+                       </div>
+                       <button type="submit" class="btn btn-warning font-size-12">Add to Cart</button>
+                     </div>
+                   </div>
+                 </div>
+                 </div>
+                 <div class="grid-item  Shorcut border ">
+                  <div class="item py-2" style="width: 200px;">
+                    <div class="product font-rale">
+                      <div class="d-flex flex-column">
+                        <a href="#"><img src="../assets/products/suh1.jpeg" class="img-fluid-1" alt="pro1"></a>
+                        <div class="text-center">
+                          <h6>Миндаль "Беркут", 250 гр</h6>
+                          <div class="rating text-warning font-size-12">
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="far fa-star"></i></span>
+                          </div>
+                          <div class="price py-2">
+                            <span>2154 KZT</span>
+                          </div>
+                          <button type="submit" class="btn btn-warning font-size-12">Add to Cart</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="grid-item  Snacks border ">
+                  <div class="item py-2" style="width: 200px;">
+                    <div class="product font-rale">
+                      <div class="d-flex flex-column">
+                        <a href="#"><img src="../assets/products/sn3.png" class="img-fluid-1" alt="pro1"></a>
+                        <div class="text-center">
+                          <h6>Чипсы Lay's сыр 150 г</h6>
+                          <div class="rating text-warning font-size-12">
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="far fa-star"></i></span>
+                          </div>
+                          <div class="price py-2">
+                            <span>544 KZT</span>
+                          </div>
+                          <button type="submit" class="btn btn-warning font-size-12">Add to Cart</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="grid-item  Shorcut border ">
+                  <div class="item py-2" style="width: 200px;">
+                    <div class="product font-rale">
+                      <div class="d-flex flex-column">
+                        <a href="#"><img src="../assets/products/suh2.jpeg" class="img-fluid-1" alt="pro1"></a>
+                        <div class="text-center">
+                          <h6> Финики вес</h6>
+                          <div class="rating text-warning font-size-12">
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="far fa-star"></i></span>
+                          </div>
+                          <div class="price py-2">
+                            <span>1660 KZT</span>
+                          </div>
+                          <button type="submit" class="btn btn-warning font-size-12">Add to Cart</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="grid-item  Frozenfoods border">
+                  <div class="item py-2" style="width: 200px;">
+                    <div class="product font-rale">
+                      <div class="d-flex flex-column">
+                        <a href="#"><img src="../assets/products/fr4.jpg" class="img-fluid-1" alt="pro1"></a>
+                        <div class="text-center">
+                          <h6>Мини-котлеты для бургеров Мираторг из говядины 100 г*3 шт</h6>
+                          <div class="rating text-warning font-size-12">
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="far fa-star"></i></span>
+                          </div>
+                          <div class="price py-2">
+                            <span>1632 KZT</span>
+                          </div>
+                          <button type="submit" class="btn btn-warning font-size-12">Add to Cart</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="grid-item Frozenfoods border  " >
+                  <div class="item py-2" style="width: 200px;">
+                    <div class="product font-rale">
+                      <div class="d-flex flex-column">
+                        <a href="#"><img src="../assets/products/fr5.jpg" class="img-fluid-1" alt="pro1"></a>
+                        <div class="text-center">
+                          <h6> Чебуреки мини Nord Standard, 400 гр</h6>
+                          <div class="rating text-warning font-size-12">
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="fas fa-star"></i></span>
+                            <span><i class="far fa-star"></i></span>
+                          </div>
+                          <div class="price py-2">
+                            <span>1416 KZT</span>
+                          </div>
+                          <button type="submit" class="btn btn-warning font-size-12">Add to Cart</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        <!-- !Special Price -->
+
+        <!-- Banner Ads  -->
+          
+        <!-- !Banner Ads  -->
+
+          <!-- New Phones -->
+          <section id="new-phones">
+            <div class="container">
+              <h4 class="font-rubik font-size-20">New Products</h4>
+              <hr>
+
+                    <!-- owl carousel -->
+                    <div class="owl-carousel owl-theme">
+                      <div class="item py-2 bg-light">
+                        <div class="product font-rale">
+                          <a href="#"><img src="../assets/products/pip1.jpg" alt="product1" class="img-fluid"></a>
+                          <div class="text-center">
+                            <h6>ХЛЕБЦЫ АГУША РИСОВЫЕ ГРУША 0,2% 30гр</h6>
+                            <div class="rating text-warning font-size-12">
+                              <span><i class="fas fa-star"></i></span>
+                              <span><i class="fas fa-star"></i></span>
+                              <span><i class="fas fa-star"></i></span>
+                              <span><i class="fas fa-star"></i></span>
+                              <span><i class="far fa-star"></i></span>
+                            </div>
+                            <div class="price py-2">
+                              <span>317 KZT</span>
+                            </div>
+                            <button type="submit" class="btn btn-warning font-size-12">Add to Cart</button>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="item py-2 bg-light">
+                        <div class="product font-rale">
+                          <a href="#"><img src="../assets/products/pip2.jpeg" alt="product1" class="img-fluid"></a>
+                          <div class="text-center">
+                            <h6>Вафли сдобные Элизабет choco toast какао яблоко корица 85 г</h6>
+                            <div class="rating text-warning font-size-12">
+                              <span><i class="fas fa-star"></i></span>
+                              <span><i class="fas fa-star"></i></span>
+                              <span><i class="fas fa-star"></i></span>
+                              <span><i class="fas fa-star"></i></span>
+                              <span><i class="far fa-star"></i></span>
+                            </div>
+                            <div class="price py-2">
+                              <span>506 KZT</span>
+                            </div>
+                            <button type="submit" class="btn btn-warning font-size-12">Add to Cart</button>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="item py-2 bg-light">
+                        <div class="product font-rale">
+                          <a href="#"><img src="../assets/products/pip3.jpg" alt="product1" class="img-fluid"></a>
+                          <div class="text-center">
+                            <h6>Печенье детское Бегемотик Бонди Обогащенное кальцием 180гр</h6>
+                            <div class="rating text-warning font-size-12">
+                              <span><i class="fas fa-star"></i></span>
+                              <span><i class="fas fa-star"></i></span>
+                              <span><i class="fas fa-star"></i></span>
+                              <span><i class="fas fa-star"></i></span>
+                              <span><i class="far fa-star"></i></span>
+                            </div>
+                            <div class="price py-2">
+                              <span>328 KZT</span>
+                            </div>
+                            <button type="submit" class="btn btn-warning font-size-12">Add to Cart</button>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="item py-2 bg-light">
+                        <div class="product font-rale">
+                          <a href="#"><img src="../assets/products/pip4.png" alt="product1" class="img-fluid"></a>
+                          <div class="text-center">
+                            <h6>Печенье детское Когда Я вырасту с 5 месяцев Классическое 35г</h6>
+                            <div class="rating text-warning font-size-12">
+                              <span><i class="fas fa-star"></i></span>
+                              <span><i class="fas fa-star"></i></span>
+                              <span><i class="fas fa-star"></i></span>
+                              <span><i class="fas fa-star"></i></span>
+                              <span><i class="far fa-star"></i></span>
+                            </div>
+                            <div class="price py-2">
+                              <span>200 KZT</span>
+                            </div>
+                            <button type="submit" class="btn btn-warning font-size-12">Add to Cart</button>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="item py-2 bg-light">
+                        <div class="product font-rale">
+                          <a href="#"><img src="../assets/products/pip5.jpg" alt="product1" class="img-fluid"></a>
+                          <div class="text-center">
+                            <h6>Детское печенье Когда Я вырасту "5 злаков" молотое 50г</h6>
+                            <div class="rating text-warning font-size-12">
+                              <span><i class="fas fa-star"></i></span>
+                              <span><i class="fas fa-star"></i></span>
+                              <span><i class="fas fa-star"></i></span>
+                              <span><i class="fas fa-star"></i></span>
+                              <span><i class="far fa-star"></i></span>
+                            </div>
+                            <div class="price py-2">
+                              <span>289 KZT</span>
+                            </div>
+                            <button type="submit" class="btn btn-warning font-size-12">Add to Cart</button>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="item py-2 bg-light">
+                        <div class="product font-rale">
+                          <div class="d-flex flex-column">
+                            <a href="#"><img src="../assets/products/pip6.jpg" class="img-fluid" alt="pro1"></a>
+                            <div class="text-center">
+                              <h6>Печенье РАХАТ детское/вес </h6>
+                              <div class="rating text-warning font-size-12">
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="far fa-star"></i></span>
+                              </div>
+                              <div class="price py-2">
+                                <span>666 KZT</span>
+                              </div>
+                              <button type="submit" class="btn btn-warning font-size-12">Add to Cart</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="item py-2 bg-light">
+                        <div class="product font-rale">
+                          <div class="d-flex flex-column">
+                            <a href="#"><img src="../assets/products/pip7.jpeg" class="img-fluid" alt="pro1"></a>
+                            <div class="text-center">
+                              <h6>Кусочки фруктовые ФрутоНяня яблоко клубника банан 15 г</h6>
+                              <div class="rating text-warning font-size-12">
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="fas fa-star"></i></span>
+                                <span><i class="far fa-star"></i></span>
+                              </div>
+                              <div class="price py-2">
+                                <span>232 KZT</span>
+                              </div>
+                              <button type="submit" class="btn btn-warning font-size-12">Add to Cart</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                 
+
+            </div>
+          </section>
+          
+      
+            <section id="blogs">
+              <div class="container py-4">
+                <h4 class="font-rubik font-size-20">Latest Blogs</h4>
+                <hr>
+
+                <div class="owl-carousel owl-theme">
+                  <div class="item">
+                    <div class="card border-0 font-rale mr-5" style="width: 18rem;">
+                      <h5 class="card-title font-size-16">Upcoming Products </h5>
+                      <img src="https://res.cloudinary.com/hhgz8qnrm/image/upload/f_auto/partners/images/shipt.jpg" alt="cart image" class="card-img-top">
+                      <p class="card-text font-size-14 text-black-50 py-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis non iste sequi cupiditate tempora iure. Velit accusamus saepe harum sed.</p>
+                      <a href="#" class="color-second text-left">Go somewhere</a>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <div class="card border-0 font-rale mr-5" style="width: 18rem;">
+                      <h5 class="card-title font-size-16">Upcoming Products</h5>
+                      <img src="https://get.wallhere.com/photo/family-food-supermarket-shop-shopping-1031944.jpg" class="card-img-top">
+                      <p class="card-text font-size-14 text-black-50 py-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis non iste sequi cupiditate tempora iure. Velit accusamus saepe harum sed.</p>
+                      <a href="#" class="color-second text-left">Go somewhere</a>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <div class="card border-0 font-rale mr-5" style="width: 18rem;">
+                      <h5 class="card-title font-size-16">Upcoming Products</h5>
+                      <img src="https://www.brownstoner.com/wp-content/uploads/2016/05/brooklyn-grocery-store-fairway-bankrupt-red-hook-1.jpg" class="card-img-top">
+                      <p class="card-text font-size-14 text-black-50 py-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis non iste sequi cupiditate tempora iure. Velit accusamus saepe harum sed.</p>
+                      <a href="#" class="color-second text-left">Go somewhere</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+          <!-- !Blogs -->
+
+        </main>
+    <!-- !start #main-site -->
+
+    <!-- start #footer -->
+        <footer id="footer" class="bg-dark text-white py-5">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-3 col-12">
+                <h4 class="font-rubik font-size-20">Grocery Store</h4>
+                <p class="font-size-14 font-rale text-white-50">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus, deserunt.</p>
+              </div>
+              <div class="col-lg-4 col-12">
+                <h4 class="font-rubik font-size-20">Newslatter</h4>
+                <form class="form-row">
+                  <div class="col">
+                    <input type="text" class="form-control" placeholder="Email *">
+                  </div>
+                  <div class="col">
+                    <button type="submit" class="btn btn-primary mb-2">Subscribe</button>
+                  </div>
+                </form>
+              </div>
+              <div class="col-lg-2 col-12">
+                <h4 class="font-rubik font-size-20">Information</h4>
+                <div class="d-flex flex-column flex-wrap">
+                  <a href="#" class="font-rale font-size-14 text-white-50 pb-1">About Us</a>
+                  <a href="#" class="font-rale font-size-14 text-white-50 pb-1">Delivery Information</a>
+                  <a href="#" class="font-rale font-size-14 text-white-50 pb-1">Privacy Policy</a>
+                  <a href="#" class="font-rale font-size-14 text-white-50 pb-1">Terms & Conditions</a>
+                </div>
+              </div>
+              <div class="col-lg-2 col-12">
+                <h4 class="font-rubik font-size-20">Account</h4>
+                <div class="d-flex flex-column flex-wrap">
+                  <a href="#" class="font-rale font-size-14 text-white-50 pb-1">My Account</a>
+                  <a href="#" class="font-rale font-size-14 text-white-50 pb-1">Order History</a>
+                  <a href="#" class="font-rale font-size-14 text-white-50 pb-1">Wish List</a>
+                  <a href="#" class="font-rale font-size-14 text-white-50 pb-1">Newslatters</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </footer>
+        <div class="copyright text-center bg-dark text-white py-2">
+          <p class="font-rale font-size-14">&copy; Copyrights 2020. Desing By <a href="#" class="color-second">Grocery Team</a></p>
+        </div>
+    <!-- !start #footer -->
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+    <!-- Owl Carousel Js file -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" integrity="sha256-pTxD+DSzIwmwhOqTFN+DB+nHjO4iAsbgfyFq5K5bcE0=" crossorigin="anonymous"></script>
+
+    <!--  isotope plugin cdn  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+
+    <!-- Custom Javascript -->
+    <script src="index.js"></script>
+</body>
+</html>
